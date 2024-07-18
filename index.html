@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Dice rolling</h1>
+    </header>
+
+    <main>
+        <div id="container">
+            <input type="number" name="char" id="char" placeholder="Valore caratteristica">
+            <span>
+                <input type="checkbox" name="proficent" id="proficent" placeholder=""> Sei competente?
+            </span>
+            <select name="dice-roller" id="roller">
+                <option value="2">Coin</option>
+                <option value="4">d4</option>
+                <option value="6">d6</option>
+                <option value="8">d8</option>
+                <option value="10">d10</option>
+                <option value="20">d20</option>
+                <option value="100">d100</option>
+            </select>
+            <button type="button" id="start">Tira</button>
+        </div>
+    </main>
+
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>
